@@ -30,8 +30,8 @@
   cursor: pointer;
 }
 
-.mic-icon {
-  width: 0px;
+.fa-microphone {
+  // width: 0px;
   transition: 0.5s;
   transition-delay: 0.5s;
 }
