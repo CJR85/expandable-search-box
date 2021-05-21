@@ -32,6 +32,8 @@
 
 .mic-icon {
   width: 0px;
+  transition: 0.5s;
+  transition-delay: 0.5s;
 }
 
 input {
@@ -40,4 +42,14 @@ input {
   border: 0;
   background: transparent;
   outline: none;
+  transition: 2s;
+}
+
+.active input {
+  width: 500px;
+  padding: 12px 20px;
+}
+
+.active .mic-icon {
+  width: 30px;
 }
